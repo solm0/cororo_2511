@@ -6,11 +6,12 @@ import { changeDisplay } from "./firebase";
 import { useState } from "react";
 import Link from "next/link";
 
-function Lp({
-  proj, tabOpen
+export function Lp({
+  proj, tabOpen = null, isInList
 }:{
   proj?: Project;
-  tabOpen: string | null;
+  tabOpen?: string | null;
+  isInList?: boolean;
 }) {
   if (!proj) return null;
 
@@ -18,8 +19,9 @@ function Lp({
     <>
       <div className="absolute w-full h-full rounded-full bg-zinc-950 shrink-0"/>
       <div className={`
-        absolute w-1/2 h-1/2 rounded-full bg-zinc-950 overflow-clip hover:brightness-200
-        ${proj.url === tabOpen ? 'brightness-200' : ''}
+        absolute w-1/2 h-1/2 rounded-full bg-zinc-950 overflow-clip
+        ${proj.url === tabOpen && isInList && 'brightness-200'}
+        ${isInList && 'hover:brightness-200'}
       `}>
         <Image
           src={proj.thumb}
@@ -60,7 +62,7 @@ export default function Home() {
                   setTabOpen(proj.url);
                 }}
               >
-                <Lp proj={proj} tabOpen={tabOpen} />
+                <Lp proj={proj} tabOpen={tabOpen} isInList={true} />
               </button>
             ))}
           </div>
