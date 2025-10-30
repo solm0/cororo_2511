@@ -31,11 +31,11 @@ export const projects: Project[] = [
     ]
   },
   {
-    author: '정솔미',
-    title: 'sudno',
-    url: 'https://ko.wikipedia.org/wiki/%EB%8F%99%ED%8B%B0%EB%AA%A8%EB%A5%B4',
-    thumb: '/ㄱㄱ_1.png',
-    desc: [],
+    author: '김민제',
+    title: 'stormy coast',
+    url: 'https://stormycoast.vercel.app/',
+    thumb: '/김민제_1.png',
+    desc: ['<레인 월드> 게임에서 음악은 위협에 가까이 다가갈수록 음악의 레이어가 중첩된다. 이런 시스템을 바탕으로 미로 속에서 음악의 진원지를 찾아나서는 게임을 만들었다.'],
   },
   {
     author: '정솔미',
