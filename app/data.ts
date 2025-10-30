@@ -48,7 +48,7 @@ export const projects: Project[] = [
     author: '정현상',
     title: 'joy',
     url: 'https://cororo-2511.vercel.app/joy',
-    thumb: '/정현상_1.png',
+    thumb: '/f_1.png',
     desc: ['신나는 트럼펫 소리에 맞춰서 아름답게 반응하는 그래픽을 신나게 구경해보세요.'],
   },
   {
