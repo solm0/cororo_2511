@@ -49,7 +49,10 @@ export default function Home() {
             코로로 전시제목
           </h1>
 
-          <p className="w-full h-auto px-4 break-keep opacity-70 text-center">LP를 터치하면 아이맥 화면에서 웹사이트가 나옵니다. 헤드셋을 이용해 음악과 함께 감상해 보세요.</p>
+          <p className="w-full h-auto px-4 break-keep opacity-70 text-center">
+            LP를 터치하면 아이맥 화면에서 웹사이트가 나옵니다.<br/>
+            헤드셋을 이용해 음악과 함께 감상해 보세요.
+          </p>
 
           {/* LP들 */}
           <div className="relative flex flex-wrap gap-2 py-8">
@@ -116,6 +119,9 @@ export default function Home() {
             <div className="break-keep flex flex-col gap-7">
               {detail?.desc.map((p, i) => <p key={i}>{p}</p>)}
             </div>
+            <div className="opacity-30">
+              {detail?.url}
+            </div>
           </div>
 
           {/* 닫기 버튼 */}
@@ -123,7 +129,7 @@ export default function Home() {
             onClick={() => setTabOpen(null)}
             className="px-5 py-2 bg-zinc-50 rounded-full text-zinc-900 hover:bg-zinc-400 transition-colors duration-300"
           >
-            확인
+            닫기
           </button>
         </div>
       </div>
