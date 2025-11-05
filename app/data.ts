@@ -65,8 +65,8 @@ export const projects: Project[] = [
     author: '정솔미',
     title: 'sudno',
     url: 'https://cororo-2511.vercel.app/alien1',
-    thumb: '/ㄷㄷ_1.png',
-    desc: [],
+    thumb: '/정현상_1.png',
+    desc: ['안녕하세요'],
   },
   {
     author: '정솔미',
