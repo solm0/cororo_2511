@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <iframe
-      src="/joy/index.html"
+      src="/static/joy/index.html"
       className="w-screen h-screen"
     />
   )

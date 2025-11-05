@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <iframe
-      src="/alien/index.html"
+      src="/static/alien1/index.html"
       className="w-screen h-screen"
     />
   )
