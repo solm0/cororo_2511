@@ -36,7 +36,7 @@ export const projects: Project[] = [
     title: 'stormy coast',
     url: 'https://stormycoast.vercel.app/',
     thumb: '/김민제_1.png',
-    desc: ['<레인 월드> 게임에서 음악은 위협에 가까이 다가갈수록 음악의 레이어가 중첩된다. 이런 시스템을 바탕으로 미로 속에서 음악의 진원지를 찾아나서는 게임을 만들었다.'],
+    desc: ['게임 <레인 월드>에서의 음악 시스템은 위협에 가까이 다가갈수록 음악의 레이어가 중첩되는 형식이다. 이런 시스템을 바탕으로 미로 속에서 음악의 진원지를 찾아나서는 게임을 만들었다.'],
     social: 'https://www.instagram.com/exsignificant/'
   },
   {
