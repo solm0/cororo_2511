@@ -7,7 +7,7 @@ let offsetX, offsetY;
 let song, fft;
 
 function preload() {
-  song = loadSound('kiseki.mp3'); // mp3 파일 경로
+  song = loadSound('/static/kiseki/kiseki.mp3'); // mp3 파일 경로
 }
 
 function setup() {
