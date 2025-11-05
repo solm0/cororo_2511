@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "코로로 전시제목",
+  title: "코로로 ",
   description: "국민대학교 제 18회 시각디자인학과 코딩 소모임 코로로",
 };
 

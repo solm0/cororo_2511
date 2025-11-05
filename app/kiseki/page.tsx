@@ -1,8 +1,9 @@
 export default function Page() {
   return (
     <iframe
-      src="/kiseki/index.html"
+      src="/static/kiseki/index.html"
       className="w-screen h-screen"
+      allow="accelerometer; gyroscope autoplay; camera; microphone"
     />
   )
 }
