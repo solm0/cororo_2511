@@ -35,7 +35,6 @@ export default function DisplayPage() {
       />
 
       <div className="fixed top-4 left-4 w-20 flex items-center animate-[spin_15s_linear_infinite]">
-
         {/* LP */}
         <div className="relative w-20 h-20 flex items-center justify-center border border-zinc-500 rounded-full shrink-0">
           <Lp proj={proj} />
