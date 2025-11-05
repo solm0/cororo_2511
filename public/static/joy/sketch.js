@@ -1,5 +1,5 @@
 let song, fft;
-let numPoints = 150;
+let numPoints = 60;
 let points = [];
 let threshold = 80;
 
