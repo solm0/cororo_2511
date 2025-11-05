@@ -1,12 +1,8 @@
 export default function Page() {
   return (
-    <video
-      src="/public/static/Punk.mp4"
-      className="w-screen h-screen object-cover"
-      autoPlay
-      loop
-      muted
-      playsInline
-    />
+<video controls className="w-screen h-screen">
+        <source src={'/static/Punk.mp4'} type={`video/mp4`} />
+        Your browser does not support the video tag.
+ </video>
   )
 }
