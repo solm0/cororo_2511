@@ -71,7 +71,7 @@ export const projects: Project[] = [
   {
     author: '김봄, 차시은',
     title: 'PUNK',
-    url: 'https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%91%EC%8A%A4_%EC%99%95%EA%B4%80_%EB%B3%B4%EC%84%9D',
+    url: 'https://cororo-2511.vercel.app/Punk',
     thumb: '/김_차.png',
     desc: ['이 작업은 두 사람이 같은 음악을 듣고 하나의 폰트를 완성하는 실험이다. 두 사람은 고릴라즈의 <Punk>를 들으며 한 명은 홀수 알파벳, 다른 한 명은 짝수 알파벳을 맡아 레터링했다. 음악의 리듬과 각자의 감각이 겹치고 섞이며 우연한 조화로 나타난다.'],
     social: 'https://www.instagram.com/kim_bom___/',
