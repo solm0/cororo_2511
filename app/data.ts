@@ -62,11 +62,11 @@ export const projects: Project[] = [
     desc: ['Greeen의 대표곡 중 하나인 기적입니다. 화면 속 다양한 모습으로 표현된 자신의 모습을 보면서 노래 가사를 들어보세요'],
   },
   {
-    author: '정솔미',
-    title: 'sudno',
+    author: '최호은',
+    title: 'alien',
     url: 'https://cororo-2511.vercel.app/alien1',
-    thumb: '/정현상_1.png',
-    desc: ['안녕하세요'],
+    thumb: '/최호은_1.png',
+    desc: ['안녕하세요 왜계인의 방을 함꼐 보며 우리 다 같이 외계인 체험해보실까요?'],
   },
   {
     author: '정솔미',
