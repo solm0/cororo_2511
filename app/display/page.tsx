@@ -8,7 +8,8 @@ import { Lp } from "../page";
 
 export default function DisplayPage() {
   const [url, setUrl] = useState("/initial");
-  const proj = projects.find(proj => proj.url = url);
+  const initProj = projects.find(proj => proj.url === url);
+  const [proj, setProj] = useState(initProj);
 
   useEffect(() => {
     const urlRef = ref(db, "currentURL");
@@ -19,6 +20,12 @@ export default function DisplayPage() {
 
     return () => unsubscribe();
   }, []);
+
+  useEffect(() => {
+    const project = projects.find(proj => proj.url === url);
+    setProj(project);
+    console.log(url, project)
+  }, [url]);
 
   return (
     <>
@@ -35,7 +42,7 @@ export default function DisplayPage() {
         </div>
 
         {/* 라벨 */}
-        <div className="px-4 w-auto py-1 text-zinc-400 flex flex-col">
+        <div className="px-4 w-40 shrink-0 py-1 text-zinc-400 flex flex-col break-keep">
           <p>{proj?.title}</p>
           <p>{proj?.author}</p>
         </div>
