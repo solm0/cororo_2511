@@ -1,0 +1,30 @@
+/* 1. HTML과 Body 기본 설정 */
+html, body {
+    /* 뷰포트(브라우저 창) 전체를 사용합니다. */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* 캔버스 주변의 기본 스크롤바를 방지합니다. */
+    overflow: hidden; 
+    /* 캔버스 자체를 중앙 정렬하기 위한 Flexbox 컨테이너 설정 */
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center;     /* 수직 중앙 정렬 */
+}
+
+/* 2. p5.js 캔버스 요소 설정 */
+canvas {
+    /* 캔버스 주변에 생길 수 있는 불필요한 테두리나 그림자를 제거합니다. */
+    display: block;
+}
+
+/* 3. main 요소 설정 (선택 사항) */
+main {
+    /* main 태그가 body와 같은 크기를 가지도록 설정하여 중앙 정렬을 돕습니다. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

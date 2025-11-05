@@ -64,7 +64,7 @@ export const projects: Project[] = [
   {
     author: '정솔미',
     title: 'sudno',
-    url: 'https://ko.wikipedia.org/wiki/2025%EB%85%84_%EB%A3%A8%EB%B8%8C%EB%A5%B4_%EB%B0%95%EB%AC%BC%EA%B4%80_%EB%8F%84%EB%82%9C_%EC%82%AC%EA%B1%B4',
+    url: 'https://cororo-2511.vercel.app/alien1',
     thumb: '/ㄷㄷ_1.png',
     desc: [],
   },
