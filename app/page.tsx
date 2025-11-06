@@ -103,18 +103,21 @@ export default function Home() {
             <h2 className="text-3xl font-serif font-bold">{detail?.title}</h2>
             <div className="flex flex-col items-center gap-2 opacity-70">
               <p>{detail?.author}</p>
-              {detail?.social &&
-                <Link
-                  href={detail?.social}
-                  className="w-8 h-8 px-1 py-1 bg-zinc-800 rounded-lg hover:bg-zinc-900 transition-colors duration-300">
-                  <Image
-                    src="/insta.svg"
-                    alt="social"
-                    width={50}
-                    height={50}
-                  />
-                </Link>
-              }
+              <div className="flex">
+                {detail?.social && detail.social.map((s, i) => (
+                  <Link
+                    key={i}
+                    href={s}
+                    className="w-8 h-8 px-1 py-1 bg-zinc-800 rounded-lg hover:bg-zinc-900 transition-colors duration-300">
+                    <Image
+                      src="/insta.svg"
+                      alt="social"
+                      width={50}
+                      height={50}
+                    />
+                  </Link>
+                ))}
+              </div>
             </div>
             <div className="break-keep flex flex-col gap-7">
               {detail?.desc.map((p, i) => <p key={i}>{p}</p>)}
