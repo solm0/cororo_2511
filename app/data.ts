@@ -4,7 +4,7 @@ export interface Project {
   url: string;
   thumb: string;
   desc: string[];
-  social?: string;
+  social?: string[];
 }
 
 export const projects: Project[] = [
@@ -18,7 +18,7 @@ export const projects: Project[] = [
       '‘에나멜 칠 요강, 쪽창, 탁자, 침대, ... ... .’ 시인의 묘사에 따라 방을 재현하였다.',
       '방의 물체들을 클릭해 시구들을 모아 시를 완성해 보자.'
     ],
-    social: 'https://www.instagram.com/solmi.wiki/',
+    social: ['https://www.instagram.com/solmi.wiki/'],
   },
   {
     author: '정솔미',
@@ -29,7 +29,7 @@ export const projects: Project[] = [
       '모노스페이스 키릴문자 픽셀들로 구 유고슬라비아 지역 브루탈리즘 양식의 기념비들을 그렸습니다.',
       '유고슬라비아 시대, 현 세르비아 수도 베오그라드에서 활동한 신스팝 음악가 Max Vincent의 곡 Loš je dan(1986)이 재생됩니다.',
     ],
-    social: 'https://www.instagram.com/solmi.wiki/',
+    social: ['https://www.instagram.com/solmi.wiki/'],
   },
   {
     author: '김민제',
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     url: 'https://stormycoast.vercel.app/',
     thumb: '/김민제_1.png',
     desc: ['게임 <레인 월드>에서의 음악 시스템은 위협에 가까이 다가갈수록 음악의 레이어가 중첩되는 형식이다. 이런 시스템을 바탕으로 미로 속에서 음악의 진원지를 찾아나서는 게임을 만들었다.'],
-    social: 'https://www.instagram.com/exsignificant/'
+    social: ['https://www.instagram.com/exsignificant/']
   },
   {
     author: '김민제',
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     url: 'https://cororo-2511.vercel.app/tian-tian',
     thumb: '/김민제_2.png',
     desc: ['tian tian은 매일매일, 날마다라는 뜻이다. 이 노래를 듣고 떠오르는 심상을 표현한 뮤직비디오를 만들었다.'],
-    social: 'https://www.instagram.com/exsignificant/'
+    social: ['https://www.instagram.com/exsignificant/']
   },
   {
     author: '정현상',
@@ -71,7 +71,7 @@ export const projects: Project[] = [
   {
     author: '김봄, 차시은',
     title: 'PUNK',
-    url: 'https://cororo-2511.vercel.app/Punk',
+    url: 'https://cororo-2511.vercel.app/punk',
     thumb: '/김_차.png',
     desc: ['이 작업은 두 사람이 같은 음악을 듣고 하나의 폰트를 완성하는 실험이다. 두 사람은 고릴라즈의 <Punk>를 들으며 한 명은 홀수 알파벳, 다른 한 명은 짝수 알파벳을 맡아 레터링했다. 음악의 리듬과 각자의 감각이 겹치고 섞이며 우연한 조화로 나타난다.'],
     social: 'https://www.instagram.com/kim_bom___/',
